@@ -9,3 +9,5 @@
 * 写入的数据为默认值
 * 使用listView 用于显示读取的串口数据。
 * serialInit 方法中设定了默认串口及波特率，可以使用SerialPortFinder进行设备串口的查找
+
+> Note: 该项目底层C++的代码都是google串口源码。为适应不同需求，变更MainActivity中的java代码就能使用。
